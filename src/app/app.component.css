@@ -1,11 +1,27 @@
 .header {
-    background-color: #333;
-    color: #eee;
-    padding: 1.6rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
 }
 
-.header a {
-    color: #eee;
+.title {
+    display: inline-block;
+    margin: 0 2rem;
     font-size: 2.4rem;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+    list-style: none;
+}
+.menu-item {
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.menu-item:hover {
+    color: #999999;
 }
